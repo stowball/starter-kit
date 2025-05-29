@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@ag.common/footer@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@ag.common/footer/-/footer-1.6.0.tgz#f032253ae26ce3a805af6f7609b13888bcfe354e"
+  integrity sha512-qaiwymTAl98g42q07OZ6NiePNQhHdV8cdA+Pa3AKEGKTrKuSFQqAArhLIzY0pojYbS2H0psuB+Ub+zgFF8GOXQ==
+
+"@ag.common/header@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@ag.common/header/-/header-2.2.0.tgz#278df9b1301641d67a670744e8975bdb11ab24a9"
+  integrity sha512-KfkG/xxL6l89XIXb6K9vAgKJsQzDLgF23WqP+Y3UMY6VBIGAfTJ8MNjXczaVO9VeukDyg+MTJQgUfUZuBWyf6g==
+
+"@ag.common/help-callout@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@ag.common/help-callout/-/help-callout-1.3.0.tgz#7c2a5fdf083a9bf974a65fc17133354784c7779c"
+  integrity sha512-rfk0gb8iJQ6/rnWOl4hNTXAKHYNLAjw3HDA0/ul8asyB3MTOcDFEBhpEqyOfe1GGya8BGBkPM9AmCriLKv5Wxw==
+
 "@ag.ds-next/react@^1.28.0":
   version "1.28.0"
   resolved "https://registry.yarnpkg.com/@ag.ds-next/react/-/react-1.28.0.tgz#7b4370b70fbb75e87597a4e444e9dbe7d7d45922"
@@ -2483,6 +2498,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
+  integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
 
 prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
