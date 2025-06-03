@@ -1,23 +1,14 @@
-import { PageContent } from '@ag.ds-next/react/content';
-import { Prose } from '@ag.ds-next/react/prose';
+import { type Metadata } from 'next';
+import Home from '../components/pages/Home';
 
-export default function Home() {
+export const metadata: Metadata = {
+	title: 'Home - AG Design System Starter Kit',
+};
+
+export default function HomePage() {
 	return (
-		<PageContent>
-			<Prose>
-				<h1>AG Design System Starter Kit</h1>
-				<p>
-					This is a simple starter kit built using the AG Design System, NextJS
-					and Typescript.
-				</p>
-				<p>
-					For examples of common user interfaces, please refer to the{' '}
-					<a href="https://design-system.agriculture.gov.au/templates">
-						design system templates.
-					</a>
-					.
-				</p>
-			</Prose>
-		</PageContent>
+		<>
+			<Home />
+		</>
 	);
 }

@@ -11,6 +11,8 @@ export type LinkComponentProps = PropsWithChildren<NextLinkProps> & {
 
 export const LinkComponent = forwardRef<HTMLAnchorElement, LinkComponentProps>(
 	function LinkComponent({ href, ...props }, ref) {
+		console.log(`href`, href);
+		console.log(`props`, props);
 		if (!href) return <a ref={ref} {...props} />;
 
 		// Use an `a` tag when linking externally

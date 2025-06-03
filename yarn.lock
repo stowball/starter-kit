@@ -17,12 +17,12 @@
   resolved "https://registry.yarnpkg.com/@ag.common/help-callout/-/help-callout-1.3.0.tgz#7c2a5fdf083a9bf974a65fc17133354784c7779c"
   integrity sha512-rfk0gb8iJQ6/rnWOl4hNTXAKHYNLAjw3HDA0/ul8asyB3MTOcDFEBhpEqyOfe1GGya8BGBkPM9AmCriLKv5Wxw==
 
-"@ag.ds-next/react@^1.28.0":
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/@ag.ds-next/react/-/react-1.28.0.tgz#7b4370b70fbb75e87597a4e444e9dbe7d7d45922"
-  integrity sha512-eC67vgMHHPM1m0ckqtyoLosCmGKl4xhexIUlVfkYh+JuV5jSK+VVxFC12VgUuMR2a6qSlXAUYrLrpOJSStc8Yw==
+"@ag.ds-next/react@^1.29.0":
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/@ag.ds-next/react/-/react-1.29.0.tgz#cb82e58edaa3222dbbe017fbef15d5161bab385f"
+  integrity sha512-YHcwba0R67+G3xOTg8XseryiShrxo9mruLdwhXYk97ZEl7EyxOkrx0z6gef56HroM/oYVZN2TV7IIZgfFiUNzQ==
   dependencies:
-    "@babel/runtime" "^7.4.5"
+    "@babel/runtime" "^7.27.1"
     "@floating-ui/react-dom" "^2.0.8"
     "@types/facepaint" "^1.2.5"
     date-fns "^2.28.0"
@@ -79,10 +79,15 @@
   dependencies:
     "@babel/types" "^7.27.1"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.21.0", "@babel/runtime@^7.24.5", "@babel/runtime@^7.4.5":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.21.0", "@babel/runtime@^7.24.5":
   version "7.27.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.1.tgz#9fce313d12c9a77507f264de74626e87fd0dc541"
   integrity sha512-1x3D2xEk2fRo3PAhwQwu5UubzgiVWSXTBfWpVd2Mx2AzRqJuDJCsgaDVZ7HB5iGzDW1Hl1sWN2mFyKjmR9uAog==
+
+"@babel/runtime@^7.27.1":
+  version "7.27.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.4.tgz#a91ec580e6c00c67118127777c316dfd5a5a6abf"
+  integrity sha512-t3yaEOuGu9NlIZ+hIeGbBjFtZT7j2cb2tg0fuaJKeGotchRjjLfrBA9Kwf8quhpP1EUuxModQg04q/mBwyg8uA==
 
 "@babel/template@^7.27.1":
   version "7.27.2"

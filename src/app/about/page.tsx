@@ -1,20 +1,21 @@
-'use client';
+import { type Metadata } from 'next';
+import About from '../../components/pages/About';
+import { HelpCallout } from '../../components/HelpCallout/HelpCallout';
+import { Header } from '../../components/Header/Header';
+import { Footer } from '@ag.common/footer';
+// import { Footer } from '../../components/Footer';
 
-import { HelpCallout } from '@ag.common/help-callout';
-import { PageContent } from '@ag.ds-next/react/content';
-import { Prose } from '@ag.ds-next/react/prose';
-import { Stack } from '@ag.ds-next/react/stack';
+export const metadata: Metadata = {
+	title: 'About - AG Design System Starter Kit',
+};
 
-export default function About() {
+export default function AboutPage() {
 	return (
-		<PageContent>
-			<Stack gap={2}>
-				<Prose>
-					<h1>About</h1>
-					<p>A simple example of another route.</p>
-				</Prose>
-				<HelpCallout />
-			</Stack>
-		</PageContent>
+		<>
+			<HelpCallout internal />
+			<Footer />
+			<Header />
+			<About />
+		</>
 	);
 }
